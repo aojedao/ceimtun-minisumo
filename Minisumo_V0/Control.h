@@ -1,14 +1,14 @@
-#ifndef Minisumo_Control
-#define Minisumo_Control
+#ifndef Minisumo_Control_H
+#define Minisumo_Control_H
 
 #include <Arduino.h>
 
 class Control{
+  private:
+    byte startdelay;
   public:
-    Control();
-    void timer();
+    Control(byte startdelay);
     void on();
-    void off();
 };
 
 #endif

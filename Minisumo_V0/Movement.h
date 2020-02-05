@@ -1,5 +1,5 @@
-#ifndef Minisumo_Movement
-#define Minisumo_Movement
+#ifndef Minisumo_Movement_H
+#define Minisumo_Movement_H
 
 #include <Arduino.h>
 
