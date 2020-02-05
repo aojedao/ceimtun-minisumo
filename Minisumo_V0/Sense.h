@@ -4,6 +4,7 @@
 #include <Arduino.h>
 
 class Sense{
+ 
   public:
     Sense();
     void Location();
